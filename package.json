@@ -1,0 +1,25 @@
+{
+  "name": "rooibos",
+  "version": "1.0.0",
+  "description": "Code review tool",
+  "files": [
+    "lib"
+  ],
+  "bin": "lib/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Platon Korzh <platon@korzh.io>",
+  "license": "ISC",
+  "dependencies": {
+    "ast-traverse": "^0.1.1",
+    "chalk": "^1.1.1",
+    "escodegen": "^1.8.0",
+    "escope": "^3.3.0",
+    "esprima": "^2.7.1",
+    "flat": "^1.6.0",
+    "meow": "^3.7.0",
+    "require-dir": "^0.3.0",
+    "update-notifier": "^0.6.0"
+  }
+}
